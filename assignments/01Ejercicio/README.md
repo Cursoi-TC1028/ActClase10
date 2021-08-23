@@ -18,38 +18,33 @@ if __name__ == '__main__':
 La línea `#Escribe tu código abajo de esta línea` es un comentario,
 el programa la va a ignorar al ejecutarse.
 
-Escribe un programa que convierta pies, pulgadas y yardas a centímetros, para lo cual debes definir tres funciones:
-- La función **pies_cm(pies)** que recibe una cantidad en `pies`(entero positivo) y devuelva su equivalencia en centímetros.
-- La función **pulgadas_cm(pulgadas)** que recibe una cantidad en `pulgadas`(entero positivo) y devuelva su equivalencia en centímetros.
-- La función **yardas_cm(yardas)** que recibe una cantidad en `yardas`(entero positivo) y devuelva su equivalencia en centímetros.
+Escribe una función llamada equivalente que reciba como parámetro una cantidad de horas, minutos y segundos y regrese como valor de retorno el tiempo equivalente en segundos.
 
+Por ejemplo:
+
+Si la función recibe los valores horas = 2, minutos = 20 y segundos = 8, regresará el valor 8408.
+
+Nota que la función no mostrará nada, solo regresa como valor de retorno la cantidad de segundos equivalente.
+
+ 
+
+Ahora escribe una función main en la que pidas al usuario teclear cuanto tiempo en horas, minutos y segundos han tardado 2 procesos, después de pedir el tiempo que dura cada proceso muestra el tiempo equivalente en segundos de dicho proceso.
 **Entradas**
-- La opción a ejecutar (`1. pies a cm, 2. pulgadas a cm, 3. yardas a cm`). 
-- Un valor entero positivo que corresponde a la cantidad en la medida de acuerdo con la opción tecleada (sólo el número).
+proceso 1:
+Introduce las horas: 12
+Introduce las minutos: 25
+Introduce las segundos: 6
+proceso 2:
+Introduce las horas: 85
+Introduce las minutos: 6
+Introduce las segundos: 45
+
 
 **Salida**
-- La cantidad equivalente en centímetros (sólo el número). 
-- En caso de que el número de opción sea diferente a 1, 2, o 3 se desplegará el mensaje: `Error`.
-- En caso de que el valor a convertir sea 0 o menor se desplegará el mensaje: `Error`.
+proceso 1: 44706
+proceso 2: 306405
 
-Estos son algunos ejemplos de ejecución del programa. La salida del programa debe de ser exactamente de la siguiente forma:
 
-```plaintext
-1. pies a cm, 2. pulgadas a cm, 3. yardas a cm
-Introduce una opcion: 1
-Introduce la cantidad: 1
-30.48
-
-1. pies a cm, 2. pulgadas a cm, 3. yardas a cm
-Introduce una opcion: 2
-Introduce la cantidad: 1
-2.54
-
-1. pies a cm, 2. pulgadas a cm, 3. yardas a cm
-Introduce una opcion: -5
-Introduce la cantidad: 1
-Error
-```
 **Nota:** No te preocupes por esta parte del código
 `if __name__ == '__main__':` por el momento. No la vamos a necesitar para
 este programa, pero es una buena práctica incluirla y quedará más
