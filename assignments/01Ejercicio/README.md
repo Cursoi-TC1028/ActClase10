@@ -1,5 +1,5 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
-# Convertidor a centímetros
+# Convertidor tiempo a segundos
 **Decisiones - Convierte pies, pulgadas y yardas a centímetros**
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama
