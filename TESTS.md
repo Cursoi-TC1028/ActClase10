@@ -9,22 +9,22 @@
 sudo -H pip3 install pytest
 ```
 
-- ## 01 Convertidor
+- ## 01 Ejercicio
     ### Run command
     ```
-    pytest assignments/01Convertidor
+    pytest assignments/01Ejercicio
     ```
 
-- ## 02 Calcula Grado
+- ## 02 Ejercicio
     ### Run command
     ```
-    pytest assignments/02CalculaGrado
+    pytest assignments/02Ejercicio
     ```
 
-- ## 04 Tienda Sillas
+- ## 03 Ejercicio
     ### Run command
     ```
-    pytest assignments/04TiendaSillas
+    pytest assignments/03Ejercicio
     ```
 
 - ## 05 Binario - Decimal
