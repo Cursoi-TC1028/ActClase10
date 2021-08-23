@@ -30,6 +30,7 @@ Nota que la función no mostrará nada, solo regresa como valor de retorno la ca
 
 Ahora escribe una función main en la que pidas al usuario teclear cuanto tiempo en horas, minutos y segundos han tardado 2 procesos, después de pedir el tiempo que dura cada proceso muestra el tiempo equivalente en segundos de dicho proceso.
 **Entradas**
+<p>
 proceso 1:
 Introduce las horas: 12
 Introduce las minutos: 25
@@ -38,12 +39,13 @@ proceso 2:
 Introduce las horas: 85
 Introduce las minutos: 6
 Introduce las segundos: 45
-
+</p>
 
 **Salida**
+<p>
 proceso 1: 44706
 proceso 2: 306405
-
+</p>
 
 **Nota:** No te preocupes por esta parte del código
 `if __name__ == '__main__':` por el momento. No la vamos a necesitar para
