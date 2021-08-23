@@ -30,21 +30,21 @@ Nota que la función no mostrará nada, solo regresa como valor de retorno la ca
 
 Ahora escribe una función main en la que pidas al usuario teclear cuanto tiempo en horas, minutos y segundos han tardado 2 procesos, después de pedir el tiempo que dura cada proceso muestra el tiempo equivalente en segundos de dicho proceso.
 **Entradas**
-<pr>
-proceso 1:
-Introduce las horas: 12
-Introduce las minutos: 25
-Introduce las segundos: 6
-proceso 2:
-Introduce las horas: 85
-Introduce las minutos: 6
-Introduce las segundos: 45
-</pr>
+<br>
+<br>proceso 1:
+<br>Introduce las horas: 12
+<br>Introduce las minutos: 25
+<br>Introduce las segundos: 6
+<br>proceso 2:
+<br>Introduce las horas: 85
+<br>Introduce las minutos: 6
+<br>Introduce las segundos: 45
+
 
 **Salida**
 <pr>
-proceso 1: 44706
-proceso 2: 306405
+<br>proceso 1: 44706
+<br>proceso 2: 306405
 </pr>
 
 **Nota:** No te preocupes por esta parte del código
