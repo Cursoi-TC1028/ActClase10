@@ -14,39 +14,21 @@ if __name__ == '__main__':
 
 La línea `#escribe tu código abajo de esta línea` es un comentario, el programa la va a ignorar al ejecutarse.
 
-Escribe un programa en el cual definas la función calcula_grado(numero). Esta función debe recibir un número flotante entre 0 y 1, y debe regresar una nota alfabética de acuerdo a la siguiente tabla.
-    Score               nota
-    mayor a 0.9           A
-    mayor a 0.8           B
-    mayor a 0.7           C
-    mayor a 0.6           D
-    otro dentro del rango F
+Escribe una función llamada areaRect que reciba como parámetro el largo y ancho de un rectángulo y que regresa como valor de retorno el área del rectángulo.
 
-    Cualquier otro valor fuera del rango debe regresar "score incorrecto"
+Escribe una función llamada perimetroRect que reciba como parámetro el largo y ancho de un rectángulo y que regresa como valor de retorno el perímetro del rectángulo.
 
-    ```
-Entrada
-Un número flotante entre 0 y 1.
+Observa que dentro de las funciones no mostrarás nada, solo regresarás el valor calculado usando return.
 
-Salida
-La letra correspondiente al score asignado de acuerdo a la tabla de arriba.
-Si la entrada no está dentro del rango de 0 a 1 (inclusive), la función debe regresar la leyenda "score incorrecto"
-La función main( ) debe llamar a la función calcula_grado(valor) y debe desplegar el valor que retorna la función.
+Escribe ahora una función main que pregunte al usuario el largo y ancho del rectángulo y después pregunte si quiere calcular el área o el perímetro del rectángulo (puedes pedir una clave a para área y p para perímetro) y después muestre el valor correspondiente al cálculo que pidió el usuario.
+<br><b>Entrada
+<br>Ingresa el ancho: 5
+<br>Ingresa el largo: 2
+<br>Quiere calcular el área o el perímetro del rectángulo:
+<br>Ingresa el ancho: a
 
-La salida del programa debe de ser exactamente de la siguiente forma:
-```
-Hello World!
-Ingresa Un valor entre 0.0 y 1.0: 0.98
-A                                                              
-Ingresa Un valor entre 0.0 y 1.0: -5.1
-score incorrecto
-Ingresa Un valor entre 0.0 y 1.0: 0.8
-C  
-Ingresa Un valor entre 0.0 y 1.0: 0.65
-D
-Ingresa Un valor entre 0.0 y 1.0: 50
-score incorrecto
-```
+<br><b>Salida
+<br>area: 10.0
 
 **Nota:** No te preocupes por esta parte del código `if __name__ == '__main__':` por el momento. No la vamos a necesitar para este programa, pero es una buena práctica incluirla y quedará más claro para que sirve en los siguientes ejercicios.
 
