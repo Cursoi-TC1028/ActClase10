@@ -13,71 +13,32 @@ if __name__ == '__main__':
 
 La línea `#escribe tu código abajo de esta línea` es un comentario, el programa la va a ignorar al ejecutarse.
 
-En una tienda de sillas para oficina se venden de 3 tipos: básica, estándar y de lujo.
-Además existen los clientes normales y los clientes frecuentes.
+Escribe una función que reciba como parámetro 2 números enteros y una clave que es una letra.
 
-El precio de las sillas es:
-- Básica $700.00 c/u
-- Estándar $900.00 c/u
-- De Lujo $1,500.00 c/u
+La clave representa una operación aritmética de acuerdo con la siguiente tabla:
 
-El dueño de la tienda ha decidido dar un descuento del 20% a los <b>clientes frecuentes</b>
+Clave Significado
 
-Además ha decidido aplicar la siguiente política de descuentos por mayoreo a los
-<b> clientes normales </b>:
-- si su compra es >= $10,000 y < $20,000 un 10% de descuento
-- si su compra es >= $20,000 un 15% de descuento
+s        Suma
+r        Resta
+m       Multiplicación
+d        División
 
-Escribe un programa que lea el tipo de silla (que es una letra mayúscula que puede ser B, E, L),
-el tipo de cliente (que es una letra mayúscula que puede ser F o N) y
-la cantidad a comprar (que es un número entero).  Supón que solo se va a comprar de un tipo de silla.
+La función debe aplicar la operación aritmética a los 2 valores recibidos y regresar como valor de retorno el resultado de dicha operación.
 
-####  El programa debe tener las siguientes funciones:
-- Función llamada  total_antes_descuento que recibe como parámetros: tipo_silla y la cantidad:
-La función retorna el total incial, antes del descuento.
-- Función llamada calcula_descuento que recibe como parámetros: el total inicial y el tipo_cliente:
-La función retorna el monto del descuento.
+Nota que dentro de la función no mostrarás nada, solo regresarás el valor usando return.
 
-El programa debe calcular y mostrar los siguientes datos (todos los datos son flotantes y debes mostrar uno en cada renglón):
-- El total inicial, antes de aplicar descuento
-- La cantidad de dinero que se otorga por descuento y
-- El total a pagar por el cliente.
+ 
 
-La salida del programa debe de ser exactamente de la siguiente forma:
+Escribe ahora una función main en la que pidas al usuario teclear 2 valores numéricos y una clave (s, r, m, d), después llama la función con los parámetros correspondientes y luego muestra el resultado de la operación que regresó la función.
 
-```
-Tipo silla: L
-Tipo cliente: F
-Cantidad de sillas: 10
-Total sin dcto.  $15000.0
-Descuento        $ 3000.0
-Total a pagar    $12000.0
+**Entrada**
+<br>introducir valor 1: 5
+<br>introducir valor 2: 6
+<br>introducir clave  (s, r, m, d): s
 
-
-Tipo silla: L
-Tipo cliente: N
-Cantidad de sillas: 10
-Total sin dcto.  $15000.0
-Descuento        $ 1500.0
-Total a pagar    $13500.0
-
-
-Tipo silla: E
-Tipo cliente: N
-Cantidad de sillas: 10
-Total sin dcto.  $ 9000.0
-Descuento        $    0.0
-Total a pagar    $ 9000.0
-
-
-Tipo silla: B
-Tipo cliente: N
-Cantidad de sillas: 30
-Total sin dcto.  $21000.0
-Descuento        $ 3150.0
-Total a pagar    $17850.0
-
-```
+**Salida**
+<br>resultado: 11
 
 **Nota:** No te preocupes por esta parte del código `if __name__ == '__main__':` por el momento. No la vamos a necesitar para este programa, pero es una buena práctica incluirla y quedará más claro para que sirve en los siguientes ejercicios.
 
